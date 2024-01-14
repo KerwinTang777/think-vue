@@ -71,20 +71,20 @@ export default {
 </script>
 
 <style scoped>
-/deep/.el-form-item__label {
+div /deep/.el-form-item__label {
   font-weight: bold;
 }
-/deep/.el-upload {
+div /deep/.el-upload {
   border-radius: 50%;
 }
-/deep/.avatar-uploader .el-upload {
+div /deep/.avatar-uploader .el-upload {
   border: 1px dashed #d9d9d9;
   cursor: pointer;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
 }
-/deep/.avatar-uploader .el-upload:hover {
+div /deep/.avatar-uploader .el-upload:hover {
   border-color: #409EFF;
 }
 .avatar-uploader-icon {

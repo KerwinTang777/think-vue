@@ -162,6 +162,7 @@ export default {
         this.total = res.data?.total
       })
     },
+    
     reset() {
       this.title = null
       this.load(1)
